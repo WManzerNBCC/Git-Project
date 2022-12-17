@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #404040;
+}
+
+/* Header Section */
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #ff1b1b;
+}
+
+.header .logo {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 1080px;
+    background-color: #a10d0d;
+    padding: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#nav-icons {
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    background-color: #a10d0d;
+    margin-right: 3%;
+    text-decoration: none;
+    padding: 10px 0.1%;
+}
+
+.icon-size {
+    height: 50px;
+    width: 60px;
+}
+
+.white_text {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px #000000;
+    margin-left: 10px;
+}
+
+/* Footer Section */
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202020;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px #000000;
+    position: absolute;
+    bottom: 0;
+}
+
+#name {
+    align-content: left;
+    margin-left: 10px;
+}
+
+#course_name {
+    align-content: center;
+}
+
+#submission_date {
+    align-content: right;
+    margin-right: 10px;
+}
+
+.cat_img {
+    display: absolute;
+    height: 450px;
+    width: auto;
+    text-align: right;
+    margin-right: auto;
+    margin-left: 50px;
+    float: left;
+}
+
+#layout {
+    width: 95%;
+    height: 70%;
+    margin-left: 10px;
+    position: absolute;
+    left: 10px;
+    align-content: center;
+    padding-bottom: 50px;
+}
+
+/* Individual Recipe Pages */
+#subtitle {
+    margin-left: 700px;
+}
+#subcategories {
+    margin-left: 600px;
+    position: absolute;
+}
+#subcategories2 {
+    margin-left: 900px;
+    position: absolute;
+}
+#subcategories3 {
+    margin-left: 1200px;
+    position: absolute;
+}
+#ingredients {
+    margin-left: 300px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px #000000;
+    position: absolute;
+}
+#instructions {
+    margin-left: 900px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px #000000;
+    position: absolute;
+}
+
+/* Homepage Content */
+
+.content {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#homepage_text {
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}
+
+#logo_image {
+    left: 1000px;
+    top: 200px;
+    position: absolute;
+}
+
+/* Link Modification */
+
+a:link {
+    color: #cc3333;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #cc3333;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cc6b33;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #cc3333;
+    background-color: transparent;
+    text-decoration: underline;
+}
